@@ -1,0 +1,26 @@
+body {
+	color: #fff;
+	font-family: 'Press Start 2P', cursive;
+	background: transparent url("../images/psychic.jpg") no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	color: red;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 150px;
+}
+
+h3 {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 40px;
+	margin-top: 10px;
+	padding: 40px;
+	line-height: 65px;
+}
+
+section {
+	margin-top: 50px;
+	text-align: center;
+	line-height: 60px
+}
