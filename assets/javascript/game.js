@@ -32,14 +32,12 @@ document.onkeyup = function(event) {
 			guessesLeft--; //decresing the guesses left if user chooses wrong
 		}
 
-		var html = "<h1>Psychic Game!</h1>" +
-		"<h3>Can you guess what letter I, a very complex computer, am thinking about?</h3>" +
-		"<p>Wins: " + wins + "</p>" +
-		"<p>Losses: " + losses + "</p>" +
-		"<p>Guesses Left: " + guessesLeft + "</p>" +
-		"<p>Your guesses so far: " + guessesSoFar + "</p>";
 
-		document.querySelector("body").innerHTML = html; 
+		document.getElementById("wins").innerHTML = wins;
+		document.getElementById("losses").innerHTML = losses;
+		document.getElementById("guessesLeft").innerHTML = guessesLeft;
+		document.getElementById("guessesSoFar").innerHTML = guessesSoFar;
+ 
 
 	
 
